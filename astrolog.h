@@ -59,7 +59,7 @@
 ** the X11 graphics can be disabled even if you are running X windows.
 */
 
-#define PC /* Comment out this #define if you have a Unix, Mac, or other */
+/* #define PC /* Comment out this #define if you have a Unix, Mac, or other */
            /* system that isn't a generic PC running DOS or MS Windows.  */
 
 /*#define MACOLD /* Comment out this #define if you're not compiling for an  */
@@ -68,10 +68,10 @@
 /*#define X11 /* Comment out this #define if you don't have X windows, or */
             /* else have them and don't wish to compile in X graphics.  */
 
-#define WIN /* Comment out this #define if you don't have MS Windows, or */
+/* #define WIN /* Comment out this #define if you don't have MS Windows, or */
             /* else have them but want to compile a DOS version instead. */
 
-/*#define MACG /* Comment out this #define if you don't have a Mac, or else  */
+#define MACG /* Comment out this #define if you don't have a Mac, or else  */
              /* have one and don't wish to compile in Mac screen graphics. */
 
 #define MOUSE /* Comment out this #define if you don't have a mouse, or    */
@@ -121,7 +121,7 @@
 #define PS /* Comment out this #define if you don't want the ability to */
            /* generate charts in the PostScript graphics format.        */
 
-#define META /* Comment out this #define if you don't want the ability to  */
+/*#define META /* Comment out this #define if you don't want the ability to  */
              /* generate charts in the MS Windows metafile picture format. */
 
 #define INTERPRET /* Comment out this #define if you don't want the ability */
@@ -133,7 +133,7 @@
 #define CONSTEL /* Comment out this #define if you don't want any of the */
                 /* astronomical constellation charts in the program.     */
 
-#define BIORHYTHM /* Comment out this #define if you don't want the    */
+/*#define BIORHYTHM /* Comment out this #define if you don't want the    */
                   /* non-astrological biorhythm charts in the program. */
 
 /*
@@ -163,11 +163,11 @@
   /* files as accessed with the -b switch. This is normally the default  */
   /* dir above but may be changed to be somewhere else.                  */
 
-#define DEFAULT_LONG DM(122,20) /* Change numbers to longitude and latitude */
-#define DEFAULT_LAT  DM(47, 36) /* of your current location. Use negative   */
+#define DEFAULT_LONG DM(79, 59) /* Change numbers to longitude and latitude */
+#define DEFAULT_LAT  DM(40, 26) /* of your current location. Use negative   */
                                 /* values for eastern or southern degrees.  */
 
-#define DEFAULT_ZONE 8.00 /* Change this number to the time zone of your */
+#define DEFAULT_ZONE 5.00 /* Change this number to the time zone of your */
                           /* current location in hours before (west of)  */
                           /* GMT. Use negative values for eastern zones. */
 
