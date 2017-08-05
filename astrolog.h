@@ -71,10 +71,10 @@
 /* #define WIN /* Comment out this #define if you don't have MS Windows, or */
             /* else have them but want to compile a DOS version instead. */
 
-#define MACG /* Comment out this #define if you don't have a Mac, or else  */
+/*#define MACG /* Comment out this #define if you don't have a Mac, or else  */
              /* have one and don't wish to compile in Mac screen graphics. */
 
-#define MOUSE /* Comment out this #define if you don't have a mouse, or    */
+/*#define MOUSE /* Comment out this #define if you don't have a mouse, or    */
               /* don't wish to compile in mouse tracking features. This is */
               /* only valid if X11, WIN, or MACG above are set.            */
 

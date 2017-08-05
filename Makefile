@@ -25,8 +25,8 @@ OBJ = astrolog.o data.o data2.o general.o io.o\
  swephlib.o
 
 # If you don't have X windows, delete the "-lX11" part from the line below:
-LIBS = -lm -lX11
-CPPFLAGS = -O -Wno-write-strings
+LIBS = -lm
+CPPFLAGS = -O -Wno-write-strings -Wno-comment -DNeXT
 
 astrolog:: $(OBJ)
 	cc -o $(NAME) $(OBJ) $(LIBS)
